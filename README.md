@@ -2,6 +2,15 @@
 
 This deterministic Python CLI micro-demo shows that identical representational input does not guarantee identical downstream meaning. Each agent receives the same interaction-derived `ExperienceEntry` and the same typed `TVS` representation layer, but interpretation diverges when memory/inference context diverges and converges when memory/inference context aligns.
 
+## Companion Paper
+
+This repository is a deterministic companion micro-demo for the associated paper. The paper provides the broader architectural framing; this repository isolates and demonstrates one narrow claim:
+
+**identical structured representation does not guarantee identical meaning across agents**
+
+Paper:
+https://zenodo.org/records/18943706
+
 ## Architecture Diagram
 
 ```text
